@@ -1,9 +1,9 @@
 {
-  "name": "@on2ts-ontologies/context",
+  "name": "@on2ts-ontologies/sh",
   "version": "0.0.0",
-  "description": "Context file for ontologies stored under on2ts",
+  "description": "SHACL ontology",
   "keywords": [
-    "Context",
+    "sh",
     "ontology",
     "JSONLD"
   ],
@@ -13,11 +13,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "directories": {
-    "lib": "dist",
+    "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "repository": {
     "type": "git",
