@@ -1,14 +1,7 @@
 {
-  "name": "",
-  "version": "0.0.0-development",
-  "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "dist"
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
   "scripts": {
     "test:coverage": "npm test -- --coverage",
@@ -22,15 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/on2ts/ontologies"
   },
   "keywords": [],
   "author": "Jesse Wright <jesse.wright@anu.edu.au>",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "devDependencies": {
     "@comunica/actor-init-rdf-parse": "^1.19.2",
     "@dexagod/rdf-retrieval": "^1.0.1",
