@@ -44,7 +44,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish package
-        run: lerna publish --yes --message 'chore: release new versions'
+        run: | 
+          lerna publish --yes --message "chore: release new versions"
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
