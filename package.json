@@ -1,4 +1,5 @@
 {
+  "name": "@on2ts/ontologies",
   "private": true,
   "workspaces": [
     "packages/*"
