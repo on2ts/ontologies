@@ -14,10 +14,10 @@
     "test:coverage": "npm test -- --coverage",
     "test:badges": "npm run test:coverage  && jest-coverage-badges",
     "test": "jest",
-    "lint": "eslint **/lib/* **/__tests__/* --ext .ts",
-    "lint:fix": "eslint **/lib/* **/__tests__/* --ext .ts --fix",
-    "build": "tsc",
-    "prepare": "tsc",
+    "lint": "eslint **/lib/*.ts **/__tests__/*.ts --ext .ts",
+    "lint:fix": "eslint **/lib/*.ts **/__tests__/*.ts --ext .ts --fix",
+    "build": "lerna bootstrap && lerna run tsc",
+    "prepare": "npm run build",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -57,6 +57,9 @@
       "json-summary",
       "text",
       "lcov"
+    ],
+    "collectCoverageFrom": [
+      "**/[^\\.]+.{ts,tsx}"
     ],
     "coverageThreshold": {
       "global": {
