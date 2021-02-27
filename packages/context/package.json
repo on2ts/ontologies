@@ -1,0 +1,39 @@
+{
+  "name": "@on2ts-ontologies/context",
+  "version": "0.0.0",
+  "description": "Context file for ontologies stored under on2ts",
+  "keywords": [
+    "Context",
+    "ontology",
+    "JSONLD"
+  ],
+  "author": "jeswr <jesse.wright@anu.edu.au>",
+  "homepage": "https://github.com/on2ts/ontologies#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/on2ts/ontologies.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/on2ts/ontologies/issues"
+  },
+  "dependencies": {
+    "jsonld-streaming-parser": "^2.2.1"
+  },
+  "devDependencies": {
+    "n3": "^1.8.0"
+  }
+}
