@@ -45,7 +45,7 @@ jobs:
 
       - name: Publish package
         run: | 
-          npx lerna publish --yes --message "chore: release new versions"
+          npx lerna publish --yes --conventional-commits --message "chore: release new versions"
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
