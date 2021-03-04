@@ -1,6 +1,6 @@
 {
   "name": "@on2ts/ontologies-sh",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "SHACL ontology",
   "keywords": [
     "sh",
