@@ -1,46 +1,39 @@
 {
-  "name": "@on2ts/ontologies-sh",
+  "name": "@on2ts/ontologies-utils",
   "version": "1.0.14",
-  "description": "SHACL ontology",
+  "description": "Utility functions for generating ontology data in on2ts",
   "keywords": [
-    "sh",
-    "ontology",
+    "Utils",
+    "Ontology",
     "JSONLD"
   ],
   "author": "jeswr <jesse.wright@anu.edu.au>",
   "homepage": "https://github.com/on2ts/ontologies#readme",
   "license": "MIT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": "lib/index.ts",
   "directories": {
-    "lib": "dist",
+    "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/on2ts/ontologies.git"
   },
   "scripts": {
-    "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/on2ts/ontologies/issues"
   },
   "dependencies": {
-    "@on2ts/ontologies-utils": "^1.0.14",
-    "@types/rdf-js": "^4.0.1",
-    "jsonld-streaming-parser": "^2.2.1"
-  },
-  "devDependencies": {
     "@types/rdf-js": "^4.0.1",
     "jsonld-streaming-parser": "^2.2.1",
-    "n3": "^1.8.0"
+    "rdf-js": "^1.0.2"
   },
-  "publishConfig": {
-    "access": "public"
+  "devDependencies": {
+    "@types/rdf-js": "^4.0.1"
   }
 }
