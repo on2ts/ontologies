@@ -2,7 +2,7 @@ import { JsonLdParser } from 'jsonld-streaming-parser';
 import type { Quad } from 'rdf-js';
 
 export function streamFactory(ontology: Object) {
-  return function stream() {
+  return function stream(): JsonLdParser {
     const parserJsonld = new JsonLdParser();
     parserJsonld.pause();
     parserJsonld.write(JSON.stringify(ontology));

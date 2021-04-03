@@ -31,16 +31,13 @@
     "url": "https://github.com/on2ts/ontologies/issues"
   },
   "dependencies": {
-    "@on2ts/ontologies-utils": "^1.0.14",
-    "@types/rdf-js": "^4.0.1",
-    "jsonld-streaming-parser": "^2.2.1"
-  },
-  "devDependencies": {
-    "@types/rdf-js": "^4.0.1",
-    "jsonld-streaming-parser": "^2.2.1",
-    "n3": "^1.8.0"
+    "@on2ts/ontologies-utils": "^1.0.14"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@types/rdf-js": "^4.0.1",
+    "jsonld-streaming-parser": "^2.2.1"
   }
 }
