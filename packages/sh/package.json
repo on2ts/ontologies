@@ -37,7 +37,9 @@
     "access": "public"
   },
   "devDependencies": {
+    "@types/n3": "^1.8.0",
     "@types/rdf-js": "^4.0.1",
-    "jsonld-streaming-parser": "^2.2.1"
+    "jsonld-streaming-parser": "^2.2.1",
+    "n3": "^1.9.0"
   }
 }
