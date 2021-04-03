@@ -1,10 +1,10 @@
 {
-  "name": "@on2ts/ontologies-sh",
+  "name": "@on2ts/ontologies-utils",
   "version": "1.0.14",
-  "description": "SHACL ontology",
+  "description": "Utility functions for generating ontology data in on2ts",
   "keywords": [
-    "sh",
-    "ontology",
+    "Utils",
+    "Ontology",
     "JSONLD"
   ],
   "author": "jeswr <jesse.wright@anu.edu.au>",
@@ -31,15 +31,10 @@
     "url": "https://github.com/on2ts/ontologies/issues"
   },
   "dependencies": {
-    "@on2ts/ontologies-utils": "^1.0.14"
-  },
-  "publishConfig": {
-    "access": "public"
+    "@types/rdf-js": "^4.0.1",
+    "jsonld-streaming-parser": "^2.2.1"
   },
   "devDependencies": {
-    "@types/n3": "^1.8.0",
-    "@types/rdf-js": "^4.0.1",
-    "jsonld-streaming-parser": "^2.2.1",
-    "n3": "^1.9.0"
+    "@types/rdf-js": "^4.0.1"
   }
 }

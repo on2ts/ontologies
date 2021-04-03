@@ -8,7 +8,7 @@ describe('Testing array output', () => {
 });
 
 describe('Testing stream output', () => {
-  it('Shoudl produce a paused stream of all quads in the ontology', async () => {
+  it('Should produce a paused stream of all quads in the ontology', async () => {
     const quadStream = stream();
     const store = new Store();
     await new Promise((res, rej) => {
