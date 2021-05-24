@@ -1,6 +1,6 @@
 {
   "name": "@on2ts/ontologies-context",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Context file for ontologies stored under on2ts",
   "keywords": [
     "Context",
