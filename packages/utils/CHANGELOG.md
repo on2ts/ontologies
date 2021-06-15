@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.30](https://github.com/on2ts/ontologies/compare/v1.0.29...v1.0.30) (2021-06-15)
+
+**Note:** Version bump only for package @on2ts/ontologies-utils
+
+
+
+
+
 ## [1.0.29](https://github.com/on2ts/ontologies/compare/v1.0.28...v1.0.29) (2021-06-08)
 
 **Note:** Version bump only for package @on2ts/ontologies-utils
