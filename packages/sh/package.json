@@ -1,6 +1,6 @@
 {
   "name": "@on2ts/ontologies-sh",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "SHACL ontology",
   "keywords": [
     "sh",
@@ -31,7 +31,7 @@
     "url": "https://github.com/on2ts/ontologies/issues"
   },
   "dependencies": {
-    "@on2ts/ontologies-utils": "^1.0.42"
+    "@on2ts/ontologies-utils": "^1.0.44"
   },
   "publishConfig": {
     "access": "public"

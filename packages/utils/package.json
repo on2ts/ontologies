@@ -1,6 +1,6 @@
 {
   "name": "@on2ts/ontologies-utils",
-  "version": "1.0.42",
+  "version": "1.0.44",
   "description": "Utility functions for generating ontology data in on2ts",
   "keywords": [
     "Utils",
