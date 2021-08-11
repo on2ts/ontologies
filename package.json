@@ -19,7 +19,7 @@
   "author": "Jesse Wright <jesse.wright@anu.edu.au>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^26.0.22",
+    "@types/jest": "^27.0.0",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
     "eslint": "^7.17.0",
