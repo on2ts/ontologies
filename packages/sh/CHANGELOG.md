@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.45](https://github.com/on2ts/ontologies/compare/v1.0.44...v1.0.45) (2021-08-17)
+
+**Note:** Version bump only for package @on2ts/ontologies-sh
+
+
+
+
+
 ## 1.0.44 (2021-08-10)
 
 **Note:** Version bump only for package @on2ts/ontologies-sh
