@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@types/rdf-js": "^4.0.1",
-    "jsonld-streaming-parser": "^2.2.1"
+    "jsonld-streaming-parser": "^3.0.0"
   },
   "devDependencies": {
     "@types/rdf-js": "^4.0.1"
